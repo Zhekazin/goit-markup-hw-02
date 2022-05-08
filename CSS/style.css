@@ -29,3 +29,8 @@ body {
 .site-nav .link:focus {
     color: #2196F3;
 }
+.hero { color: #ffffff;}
+
+.section-title {
+    color: #212121;
+}
