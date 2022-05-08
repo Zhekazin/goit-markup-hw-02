@@ -2,7 +2,30 @@
 /* Два и более селекторов разделяются запятой */
 /* Так как это правило стоит ниже, 
 ко всем ссылкам применится оранжевый цвет текста */
-.list {
+ul {
     list-style: none;
 }
-body {background-color: tomato;}
+/* цвет основного текста background: #212121;
+ */
+
+/* втоичный цвет текста background: #757575;  */
+/* Заказать услугу background: #2196F3 background: #FFFFFF; */
+
+/* эффективные решения background: #FFFFFF;  */
+/* Основной фон #E5E5E5 */
+
+body {
+    background-color: #E5E5E5;
+
+}
+.logo:hover {
+    color: #2196F3;
+}
+/* site-nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
