@@ -17,12 +17,12 @@
   --primery-text-color:rgba(0, 0, 0, 0,8)
   --title-text-color:#000000
   --accrnt-text-color: #2196F3
-  --primery-bg-color: #ffffff 
+  --primery-white-color: #ffffff 
 }
 
 body {
     background-color: #E5E5E5;
-
+     
 }
 .logo:hover {
     color: #2196F3;
@@ -46,10 +46,27 @@ background-color: F5F4FA;
 .button {
     color:var(--title-text-color);
     background-color: var(--primary-text-color);
+    font-size: 24px;
+    padding: 12px 24px;
+    border: 1px solid black;
 }
 
 ul {
     list-style: none;
 }
+
+.button.primary {
+  background-color: var(--accent-color--);
+  color: var(--primery-white-color);
+  border-color: transparent;
+}
+
+.button.secenodary {
+    color: var(--accent-color--);
+    background-color: var(--primery-white-color);
+}
+    
+
+
 
 
