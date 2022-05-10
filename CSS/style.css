@@ -12,13 +12,17 @@
 /* эффективные решения background: #FFFFFF;  */
 /* Основной фон #E5E5E5 */
 
+/* -------------- СТИЛИЗАЦИЯ ЛОГОТИП---------------------------------------- */
+
 
 :root{
   --primery-text-color:rgba(0, 0, 0, 0,8)
-  --title-text-color:#000000
-  --accrnt-text-color: #2196F3
-  --primery-white-color: #ffffff 
+  --title-text-color--:#000000
+  --accrnt-text-color--: #2196F3
+  --primery-white-color--: #ffffff 
 }
+
+/* -------------- СТИЛИЗАЦИЯ ДЛЯ ВСЕХ---------------------------------------- */
 
 body {
     background-color: #E5E5E5;
@@ -27,15 +31,27 @@ body {
 .logo:hover {
     color: #2196F3;
 }
-/* site-nav */
+
+/* -------------- СТИЛИЗАЦИЯ навигации---------------------------------------- */
+
 .site-nav .link {
-    color: #212121;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
     color: #2196F3;
 }
-       /* --HERO-- */
+.site-nav .link:hover,
+.site-nav .link:focus 
+.site-nav {
+    color: #2196F3;
+}
+.current-page {
+  color: var(--accent-color--);
+}
+
+.site-nav .link.current {
+  color: nav(--accrnt-text-color--);
+}
+
+
+/* -------------- СТИЛИЗАЦИЯ html---------------------------------------- */
 .hero { color: #212121;
 background-color: F5F4FA;
 }
@@ -44,8 +60,8 @@ background-color: F5F4FA;
 }
 
 .button {
-    color:var(--title-text-color);
-    background-color: var(--primary-text-color);
+    color:var(--title-text-color--);
+    background-color: var(--primary-text-color--);
     font-size: 24px;
     padding: 12px 24px;
     border: 1px solid black;
@@ -68,5 +84,5 @@ ul {
     
 
 
-
-
+/* -------------- СТИЛИЗАЦИЯ portfolio---------------------------------------- */
+/* -------------- СТИЛИЗАЦИЯ address list---------------------------------------- */
