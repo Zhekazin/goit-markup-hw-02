@@ -14,10 +14,6 @@
     --main-logo-color: #000000;
 }
 
-li {
-    list-style: none;
-}
-
 /* -------------- СТИЛИЗАЦИЯ ДЛЯ ВСЕХ---------------------------------------- */
 
 body {
@@ -31,7 +27,9 @@ body {
     color: inherit;
 }
 
-
+.list {
+    list-style: none;
+}
 
 /* -------------- СТИЛИЗАЦИЯ ЛОГОТИП---------------------------------------- */
 
@@ -69,10 +67,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-list-link a:hover,
-.nav-list-link a:focus,
-.contacts-list-item a:hover,
-.contacts-list-item a:focus,
+.nav-list-link :hover,
+.nav-list-link :focus,
+.contacts-list-item :hover,
+.contacts-list-item :focus,
 .current-page {
     color: var(--accent-color);
 }
