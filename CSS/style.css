@@ -36,7 +36,7 @@ body {
 .logo,
 .logo-footer {
     font-family: var(--accent-font-family);
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.192;
     font-size: 26px;
     letter-spacing: 0.03em;
@@ -130,7 +130,7 @@ body {
 .title,
 .advantage-list-title {
     color: var(--title-text-color);
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.03em;
 }
 
@@ -148,7 +148,7 @@ body {
 
 .advantage-list-description {
     font-size: 14px;
-    line-height: 1.714x;
+    line-height: 1.714;
     letter-spacing: 0.03em;
 }
 
@@ -208,6 +208,8 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
 }
+
+/*--убрать нормал----------------------------------------*/
 
 .projects-list-item-type {
     font-weight: normal;
